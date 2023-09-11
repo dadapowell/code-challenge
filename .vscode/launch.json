@@ -1,0 +1,80 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Median",
+            "program": "${workspaceFolder}/findMedian.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Factors Of",
+            "program": "${workspaceFolder}/factorsOf.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Palindrome",
+            "program": "${workspaceFolder}/palindrome.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Prime Factors",
+            "program": "${workspaceFolder}/primeFactors.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Fibonacci",
+            "program": "${workspaceFolder}/fibonacci.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Multiples of 3 or 5",
+            "program": "${workspaceFolder}/multiplesof3or5.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Longest unique substring",
+            "program": "${workspaceFolder}/longestUniqueSubstring.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Abbreviation",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/jsAbbrevChallenge.js"
+        }
+    ]
+}
